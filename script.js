@@ -20,3 +20,8 @@ function resetGrid() {
     newSize = Math.min(Math.max(1, newSize), 100);
     createGrid(newSize);
 }
+
+container.addEventListener('mouseover', handleHover);
+resetBtn.addEventListener('click', resetGrid);
+
+createGrid(16);
