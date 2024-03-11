@@ -10,3 +10,7 @@ function createGrid(size) {
         container.appendChild(square);
     }
 }
+
+function handleHover(e) {
+    e.target.classList.add('hovered');
+}
