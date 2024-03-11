@@ -14,3 +14,9 @@ function createGrid(size) {
 function handleHover(e) {
     e.target.classList.add('hovered');
 }
+
+function resetGrid() {
+    let newSize = parseInt(prompt('Enter the number of squares perside (max 100)'));
+    newSize = Math.min(Math.max(1, newSize), 100);
+    createGrid(newSize);
+}
