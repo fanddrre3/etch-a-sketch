@@ -11,7 +11,7 @@ body {
     margin: 20px auto;
 }
 
-#square {
+.square {
     width: calc(960px / 16);
     height: calc(960px / 16);
     border: 1px solid #ccc;
