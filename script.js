@@ -1,5 +1,5 @@
-const container = document.getElementsByClassName('container');
-const resetBtn = document.getElementsByClassName('resetBtn');
+const container = document.getElementsById('container');
+const resetBtn = document.getElementsById('resetBtn');
 
 function createGrid(size) {
     container.innerHTML = '';
