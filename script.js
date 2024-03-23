@@ -13,3 +13,10 @@ function createGrid() {
         container.appendChild(square);
     }
 }
+
+function changeColor(event) {
+    const currentColor = event.target.style.backgroundColor;
+    if (currentColor == 'rgb(0, 0, 0)') return;
+    const newColor = darkenColor(currentColor);
+    event.target.style.backgroundColor = newColor;
+}
