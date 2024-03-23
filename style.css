@@ -1,17 +1,19 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 960px;
-    margin: 20px auto;
-}
-
-.square {
-    width: 3%;
-    padding-bottom: 3%;
-    border: 1px solid #ccc;
-}
-
-button {
-    display: block;
-    margin: 20px auto;
-}
+    width: 960px; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+  
+  .grid-square {
+    width: 60px; /* Adjust width based on desired grid size */
+    height: 60px; /* Adjust height based on desired grid size */
+    margin: 0;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer; /* Set cursor to pointer on hover */
+  }
+  
+  .grid-square:hover {
+    background-color: #ccc; /* Change hover color */
+  }
